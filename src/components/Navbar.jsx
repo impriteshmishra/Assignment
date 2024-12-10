@@ -53,14 +53,14 @@ function Navbar() {
             </span>
           </div>
           <Button
-            className="mx-3 bg-customBlue text-white text-lg font-medium"
+            className="mx-3 bg-customBlue text-white text-lg font-medium hover:bg-blue hover:text-white "
             variant="outline"
           >
             <ShoppingCart
               size={32}
               color="#ffffff"
               strokeWidth={3}
-              className=""
+              // className="hover:text-black"
             />{" "}
             Panier
           </Button>

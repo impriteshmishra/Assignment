@@ -13,16 +13,16 @@ function Productcard() {
           alt="product image"
           layout="fill"
           objectFit="cover"
-          className="w-full"
+          // className="w-full"
         />
       </div>
       <div className="p-4">
-      <div className="flex  justify-evenly">
-        <p>Title</p>
-           <p>0 <sup>€</sup></p>
+      <div className="flex justify-between">
+        <p className="text-2xl">Title</p>
+           <p className="text-2xl">0 <sup>€</sup></p>
          </div>
-         <div className="flex justify-evenly">
-           <p>0,35€/Piece</p>
+         <div className="flex justify-between">
+           <p className="text-gray-800 text-opacity-50 ">0,35€/Piece</p>
            <Badge variant="outline">20 pieces</Badge>
          </div>
       </div>
