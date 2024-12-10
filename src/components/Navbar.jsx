@@ -16,7 +16,7 @@ import { Badge } from "@/components/ui/badge";
 
 function Navbar() {
   return (
-    <nav className="items-center justify-evenly px-1 py-1 shadow-md bg-white space-x-2 h-[168px]">
+    <nav className="items-center justify-evenly px-1 py-1 shadow-md bg-white space-x-2 h-[168px] ">
       {/* Upp side ofv nav bar */}
       <div className="flex w-full h-4/5  ">
         <div className="flex items-center w-8/12">
